@@ -5,4 +5,10 @@ Want to start developing taxi booking and management application? Close this des
 
 The project has several screens and has been developed with native android.
 
-![alt text](screenshots/dashboard.png "Screenshot image")
+
+<img src="screenshots/Screenshot_2017-11-15-13-42-53.png" width="350">
+<img src="screenshots/Screenshot_2017-11-15-13-43-04.png" width="350">
+<img src="screenshots/Screenshot_2017-11-15-13-43-26.png" width="350">
+<img src="screenshots/Screenshot_2017-11-15-13-43-33.png" width="350">
+<img src="screenshots/Screenshot_2017-11-15-13-43-41.png" width="350">
+
