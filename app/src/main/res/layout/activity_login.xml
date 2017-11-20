@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chacha.itaxi.Activities.LoginActivity">
+    <RelativeLayout
+        android:background="@drawable/banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"/>
+
+        <!--<ImageView-->
+        <!--android:layout_width="190dp"-->
+        <!--android:layout_height="190dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:src="@drawable/box_shadow"-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/imageView" />-->
+
+        <!--<pl.droidsonroids.gif.GifImageView-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:src="@drawable/logo" />-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.2"
+        android:orientation="vertical">
+
+        <com.example.chacha.itaxi.Utils.MyTextView
+            android:id="@+id/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:text="sign in"
+            android:textAlignment="center"
+            android:textColor="@color/black_text_color"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5sp"
+            android:paddingLeft="16dp">
+
+            <!--<ImageView-->
+            <!--android:layout_width="32dp"-->
+            <!--android:layout_height="32dp"-->
+            <!--android:alpha=".54"-->
+            <!--app:srcCompat="@drawable/email_outline" />-->
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/social_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:visibility="visible"
+                android:id="@+id/line_devider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <com.example.chacha.itaxi.Utils.MyTextView
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="1dp"
+                android:text="Email Address"
+                android:textColor="@color/wallet_holo_blue_light"
+                android:textSize="14sp" />
+            <com.example.chacha.itaxi.Utils.MyEditText
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter UserName"
+                android:textColor="@color/wallet_holo_blue_light"
+                android:textSize="14sp" />
+
+            <com.example.chacha.itaxi.Utils.MyTextView
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="1dp"
+                android:text="Password"
+                android:textColor="@color/wallet_holo_blue_light"
+                android:textSize="14sp" />
+            <com.example.chacha.itaxi.Utils.MyEditText
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Password"
+                android:textColor="@color/wallet_holo_blue_light"
+                android:textSize="14sp" />
+            <com.example.chacha.itaxi.Utils.MyTextView
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="1dp"
+                android:text="I dont have account"
+                android:textColor="@color/wallet_holo_blue_light"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.example.chacha.itaxi.Utils.MyButton
+            android:id="@+id/btnLoginCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="BACK"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.example.chacha.itaxi.Utils.MyButton
+            android:id="@+id/btnLoginSubmit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:text="SUBMIT"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

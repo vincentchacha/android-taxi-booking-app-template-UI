@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33e55d</color>
+    <color name="colorPrimaryDark">#33e55d</color>
+    <color name="colorAccent">#d2d2d2</color>
+
+
+    <!-- App customization -->
+    <color name="theme">#303F9F</color>
+    <color name="content_background">#303F9F</color>
+    <color name="text_color_black">#df000000</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="button_text_color">#ffffff</color>
+    <color name="button_bg_color">#000000</color>
+    <color name="black_text_color">#df000000</color>
+    <color name="fb_blue">#3b5998</color>
+    <color name="view_bg">#1A1A1A</color>
+    <color name="view_grey_bg">#d2d2d2</color>
+
+    <!-- EditText inside effect color -->
+    <color name="edit_bg">#EDEDED</color>
+    <color name="rating_bar_color">#FFCA28</color>
+    <color name="cancel_ride_color">#B0B0B0</color>
+    <color name="test">#f5f5f5</color>
+    <color name="surge_txt_bg">#999999</color>
+    <color name="surge_txt_color">#2a8dc7</color>
+</resources>

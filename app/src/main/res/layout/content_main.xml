@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.chacha.itaxi.Activities.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:id="@+id/layout_location"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/etpickup"
+        android:hint="Pickup Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <View
+            android:layout_below="@+id/etpickup"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+    <EditText
+        android:layout_below="@+id/etpickup"
+        android:hint="Destination Address"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <fragment
+        android:layout_below="@+id/layout_location"
+        android:layout_above="@+id/btn_request_ride"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/mapFragment" />
+    <Button
+        android:background="#fff"
+        android:layout_alignParentBottom="true"
+        android:text="REQUEST A RIDE"
+        android:id="@+id/btn_request_ride"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
